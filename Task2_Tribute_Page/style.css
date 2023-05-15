@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(230, 51, 38),rgb(226, 196, 63),rgb(209, 157, 46),rgb(233, 219, 33));
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background: linear-gradient(rgb(99, 228, 95),rgb(22, 173, 67),rgb(168, 223, 67),rgb(140, 212, 23));
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+  }
+  h2{
+    background:linear-gradient(to top,rgb(148, 149, 221),rgb(49, 59, 185));
+    height: 40px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to top,rgb(148, 149, 221),rgb(49, 59, 185));
+    margin-top: 10px;
+    height: 35px;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+   margin: 20px;
+   padding: 7px 0 7px;
+   justify-content: center;
+    font-size: 20px;
+    color: yellow;
+    overflow: hidden;
+  }
+  
+  nav li a:hover {
+    background:linear-gradient(to top,rgb(204, 146, 204),rgb(167, 46, 167));
+    color: purple;
+    height: 35px;
+    overflow: hidden;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  section#earlylife{
+    border: 3px solid black;
+    margin-top: 10px;
+    background: linear-gradient(rgb(99, 228, 95),rgb(22, 173, 67),rgb(168, 223, 67),rgb(140, 212, 23));
+  }
+  section#achievements{
+    border: 3px solid black;
+    margin-top: 10px;
+    background: linear-gradient(rgb(99, 228, 95),rgb(22, 173, 67),rgb(168, 223, 67),rgb(140, 212, 23));
+  }
+  section#legacy{
+    border: 3px solid black;
+    margin-top: 10px;
+    background: linear-gradient(rgb(99, 228, 95),rgb(22, 173, 67),rgb(168, 223, 67),rgb(140, 212, 23));
+  }
+p {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+  } 
+  blockquote {
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 4px solid #333;
+  }
+  img {
+    max-width: 100%;
+  }
+  .tribute
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background:white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+    margin-top: 30px;
+}
+
+.tribute blockquote
+{
+    text-align: center;
+    font-size: 2rem;
+}
+.a
+{
+    position:relative;
+    display: flex;
+    left: 28px;
+    top: 3vh;
+    margin-left: 93px;
+}
+
+.a:hover
+{
+    cursor: pointer;
+}
+
+.tribute > .b
+{
+    max-width: 100%;
+    min-height: 100%;
+}
+li{
+  margin-top: 5px;
+}
